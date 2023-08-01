@@ -8,9 +8,6 @@ body {
 }
 
 /* HEADER RELATED */
-header {
-    border-bottom: 2px solid black;
-}
 
 #company-name {
     display: flex;
@@ -29,15 +26,16 @@ h1 {
 
 /* NAVIGATION */
 #navigation {
+    background-color: #f3f3f3;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 25px;
     padding-right: 25px;
+    border-bottom: 1px solid #C5DFF8;
 }
 
 #navigation > nav {
-    
     display: flex;
     justify-content: space-evenly;
     
@@ -71,7 +69,14 @@ main {
 /* HOME */
 #home {
     display: flex;
-    border: 2px solid;
+    flex-direction: column;
+}
+
+/* SLIDESHOW AND CONTACT FLEX */
+#slide-contact-container {
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 30px;
 }
 
 /* HOME SLIDESHOW */
@@ -79,7 +84,11 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 2px solid;
+    padding-bottom: 80px;
+}
+
+#slideshow > img {
+    width: 450px;
 }
 
 #slideshow > p {
@@ -122,12 +131,12 @@ main {
 
 /* HOME CONTACT US */
 #contact {
+    height: 420px;
     display: flex;
     flex-direction: column;
     background-color: #C5DFF8;
-    border: 2px solid;
     border-radius: 3px;
-    padding: 35px 30px 35px 30px;
+    padding: 35px 35px 35px 35px;
 }
 
 #contact > .bold-text {
@@ -137,6 +146,7 @@ main {
 
 #contact > #sales-p {
     width: 225px;
+    color: #526D82;
     font-size: small;
     margin-top: 0px;
 }
@@ -144,6 +154,7 @@ main {
 #contact > form {
     display: flex;
     flex-direction: column;
+    width: 250px;
     row-gap: 20px;
     margin-top: 40px;
 }
@@ -151,22 +162,26 @@ main {
 #contact > form >div {
     display: flex;
     flex-direction: column;
+
 }
 
 #contact > form > div > input {
-    padding: 12px 6px;
+    font-size: 14px;
+    padding: 17px 12px;
     border: 2px solid #7895CB;
     border-radius: 4px;
 }
 
 #contact > form > div > select {
-    padding: 12px 6px;
+    font-size: 14px;
+    padding: 17px 12px;
     border: 2px solid #7895CB;
     border-radius: 4px;
 }
 
 #contact > form > button {
-    padding: 12px 6px;
+    font-size: 14px;
+    padding: 17px 12px;
     color: white;
     background-color: #4A55A2;
     font-weight: bold;
@@ -181,9 +196,10 @@ main {
 
 /* HOME BENEFITS */
 #benefit {
+    width: 450px;
     display: flex;
     flex-direction: column;
-    border: 2px solid;
+    padding-bottom: 50px;
 }
 
 #benefit-intro {
@@ -240,11 +256,17 @@ main {
 .pack-container {
     display: flex;
     justify-content: space-evenly;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#pack-row2 {
+    padding-top: 60px;
+    padding-bottom: 120px;
 }
 
 .pack-items {
     display: flex;
-    border: 2px solid;
 }
 
 .pack-items > img {
