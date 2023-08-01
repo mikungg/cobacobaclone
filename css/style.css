@@ -23,7 +23,7 @@ h1 {
     color: #4A55A2;
 }
 
-h4 {
+#company-name > h4 {
     color: #7895CB;
 }
 
@@ -62,9 +62,16 @@ h4 {
     border-bottom-right-radius: 4px;
 }
 
+/* MAIN */
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 /* HOME */
 #home {
     display: flex;
+    border: 2px solid;
 }
 
 /* HOME SLIDESHOW */
@@ -107,7 +114,7 @@ h4 {
 }
 
 #slideshow > div > div > #job {
-    color: #7895CB;
+    color: #526D82;
     font-size: small;
     font-style: italic;
     margin: 4px 0px 0px 0px;
@@ -176,6 +183,7 @@ h4 {
 #benefit {
     display: flex;
     flex-direction: column;
+    border: 2px solid;
 }
 
 #benefit-intro {
@@ -183,7 +191,6 @@ h4 {
     font-size: small;
     font-weight: bold;
     line-height: 17px;
-    border: 2px solid;
     padding-bottom: 20px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -193,7 +200,6 @@ h4 {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
-    border: 2px solid;
 }
 
 .ben-point {
@@ -211,6 +217,46 @@ h4 {
 
 .ben-text {
     width: 250px;
-    color: #7895CB;
+    color: #526D82;
+    font-size: small;
+}
+
+/* PACKAGE */
+#package {
+    display: flex;
+    flex-direction: column;
+}
+
+#package > #pack-intro {
+    font-size: x-large;
+    text-align: center;
+    color: #4A55A2;
+    background-color: #C5DFF8;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.pack-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pack-items {
+    display: flex;
+    border: 2px solid;
+}
+
+.pack-items > img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-top: 8px;
+    margin-right: 20px;
+}
+
+.pack-items-text > p {
+    width: 160px;
+    color: #526D82;
     font-size: small;
 }
