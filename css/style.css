@@ -171,3 +171,46 @@ h4 {
     font-size: small;
     font-weight: bold;
 }
+
+/* HOME BENEFITS */
+#benefit {
+    display: flex;
+    flex-direction: column;
+}
+
+#benefit-intro {
+    width: 370px;
+    font-size: small;
+    font-weight: bold;
+    line-height: 17px;
+    border: 2px solid;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#benefit-points {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    border: 2px solid;
+}
+
+.ben-point {
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+
+}
+
+.ben-point > img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.ben-text {
+    width: 250px;
+    color: #7895CB;
+    font-size: small;
+}
