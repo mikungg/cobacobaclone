@@ -100,49 +100,50 @@ main {
 }
 
 /* HOME SLIDESHOW */
-#slideshow {
+.slideshow {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-bottom: 80px;
 }
 
-#slideshow > img {
+.slideshow > img {
     width: 450px;
 }
 
-#slideshow > p {
+.slideshow > p {
     width: 400px;
+    min-height: 36.8px;
     color: #7895CB;
     font-style: italic;
     padding-left: 35px;
 }
 
-#slideshow > div {
+.slideshow > div {
     display: flex;
     column-gap: 15px;
     padding-left: 35px;
 }
 
-#slideshow > div > img {
+.slideshow > div > img {
     width: 45px;
     height: 45px;
     border-radius: 50%;
 }
 
-#slideshow > div > div {
+.slideshow > div > div {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-#slideshow > div > div > #testimony-name {
+.slideshow > div > div > #testimony-name {
     font-size: small;
     font-weight: bold;
     margin: 0px 0px 0px 0px;
 }
 
-#slideshow > div > div > #job {
+.slideshow > div > div > #job {
     color: #526D82;
     font-size: small;
     font-style: italic;
