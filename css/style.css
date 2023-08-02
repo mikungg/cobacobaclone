@@ -109,6 +109,8 @@ main {
 
 .slideshow > img {
     width: 450px;
+    height: 300px;
+    border-radius: 3px;
 }
 
 .slideshow > p {
@@ -262,6 +264,7 @@ main {
 .ben-point > img {
     width: 45px;
     height: 45px;
+    border: 1px solid #7895CB;
     border-radius: 50%;
 }
 
@@ -307,6 +310,7 @@ main {
 .pack-items > img {
     width: 45px;
     height: 45px;
+    border: 1px solid #7895CB;
     border-radius: 50%;
     margin-top: 8px;
     margin-right: 20px;
