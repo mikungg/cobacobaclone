@@ -193,11 +193,23 @@ main {
 }
 
 #contact > form > div > select {
-    font-size: 14px;
+    font-size: 14px; 
     padding: 17px 12px;
     border: 2px solid #7895CB;
     border-radius: 4px;
     cursor: pointer;
+}
+
+#contact > form > div > select:required:invalid {
+    color: gray;
+}
+
+#contact > form > div > select > option:disabled {
+    display: none;
+}
+
+#contact >form > div > select > optgroup {
+    color: black;
 }
 
 #contact > form > button {
