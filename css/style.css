@@ -7,6 +7,10 @@ body {
     width: 110px;
 }
 
+button {
+    cursor: pointer;
+}
+
 /* HEADER RELATED */
 
 #company-name {
@@ -36,14 +40,24 @@ h1 {
 }
 
 #navigation > nav {
+    width: 280px;
     display: flex;
     justify-content: space-evenly;
-    
 }
 
 #navigation > nav > a {
     border: 2px solid black;
     padding: 7px 3px 7px 3px;
+    flex-grow:1;
+    text-align: center;
+    text-decoration: none;
+    color: #4A55A2;
+    transition-duration: 0.4s;
+}
+
+#navigation > nav > a:hover {
+    color: azure;
+    background-color: #4A55A2;
 }
 
 #navigation > nav > a:not(:last-child) {
@@ -179,6 +193,7 @@ main {
     padding: 17px 12px;
     border: 2px solid #7895CB;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 #contact > form > button {
