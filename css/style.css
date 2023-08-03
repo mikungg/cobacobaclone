@@ -167,6 +167,12 @@ main {
     background-color: #e7f1fa;
     border: none;
     border-radius: 50%;
+    transition-duration: 0.4s;
+}
+
+#slide-button-container > button:hover{
+    background-color: #4A55A2;
+    color: azure;
 }
 
 /* FADING SLIDESHOW ANIMATION */
