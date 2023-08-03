@@ -104,7 +104,6 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-bottom: 80px;
 }
 
 .slideshow > img {
@@ -151,6 +150,34 @@ main {
     font-style: italic;
     margin: 4px 0px 0px 0px;
 }
+
+#slide-button-container {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding-bottom: 65px;
+}
+
+#slide-button-container > button {
+    width: 55px;
+    height: 55px;
+    font-size:larger;
+    color: #4A55A2;
+    background-color: #e7f1fa;
+    border: none;
+    border-radius: 50%;
+}
+
+/* FADING SLIDESHOW ANIMATION */
+.fade {
+    animation: fade 2s;
+}
+
+@keyframes fade {
+    from{opacity: .4;}
+    to{opacity: 1;}
+} 
 
 /* HOME CONTACT US */
 #contact {
